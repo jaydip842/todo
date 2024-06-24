@@ -11,7 +11,7 @@ var http = require('http');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/project')
+mongoose.connect('mongodb+srv://jaydip842:12345@cluster0.k1py9nh.mongodb.net//project')
   .then(() => console.log('Connected!'));
 
 /**
